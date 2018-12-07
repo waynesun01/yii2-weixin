@@ -11,7 +11,7 @@ class Weixin extends Component
         parent::init();
         $this->httpClient=new Client();
         $this->conf=[
-            'appid'=>'111'
+            'app_id'=>'111'
         ];
     }
 
