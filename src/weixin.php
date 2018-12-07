@@ -2,7 +2,7 @@
 namespace waynesun01\weixin;
 use yii\base\Components;
 use yii\httpClient\Client;
-class weixin extends Component
+class Weixin extends Component
 {
     private $httpClient;
     private $conf;

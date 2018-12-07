@@ -2,8 +2,7 @@
 namespace waynesun01\weixin;
 use Yii;
 
-use weixin;
-class AccessToken extends weixin{
+class AccessToken extends Weixin{
     const API_TOKEN='https://api.weixin.qq.com/cgi-bin/token';
 
 
