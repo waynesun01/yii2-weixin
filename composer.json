@@ -1,0 +1,23 @@
+{
+    "name": "waynesun01/yii2-weixin",
+    "description": "yii2的微信sdk,包括公众号和小程序",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","微信"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "waynesun01",
+            "email": "waynesun01@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-httpclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "waynesun01\\weixin\\": "src"
+        }
+    }
+}
