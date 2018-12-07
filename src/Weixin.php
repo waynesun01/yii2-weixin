@@ -1,6 +1,6 @@
 <?php 
 namespace waynesun01\weixin;
-use yii\base\Components;
+use yii\base\Component;
 use yii\httpClient\Client;
 class Weixin extends Component
 {
